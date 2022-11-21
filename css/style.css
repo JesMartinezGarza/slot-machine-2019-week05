@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: navy;
+}
+
+#gameScreen{
+    width: 80%;
+    height: 600px;
+
+    margin: 50px 10% 0px 10%;
+    background-color:crimson;
+    border: 15px solid black;
+    border-radius: 7.5px;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+#jackPot{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    padding: 10px 0px 0px 0px;
+    font-size: 2em;
+}
+
+#youWonThisMuch{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    padding: 5px 0px 0px 0px;
+    font-size: 2em;
+}
+
+.bingoBlock{
+    width: 33.3333%;
+    height: 300px;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    background-color: gold;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: crimson;
+
+    padding: 75px 0px 0px 0px;
+    font-size: 10em;
+}
+
+#minBet{
+    width: 50%;
+    height: 100px;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    background-color: crimson;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+#minBet > span{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+    font-size: 2em;
+    border: 2.5px solid black;
+    border-radius: 5px;
+}
+#minBet > button{
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#maxBet{
+    width: 50%;
+    height: 100px;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    background-color: crim;
+    color: plum;
+    font-weight: bold;
+}
+
+#maxBet > span{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+    font-size: 2em;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#maxBet > button{
+    width: 100%;
+    height: 50px;
+    background-color: plum;
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#moneyCount{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+
+    display: block;
+    text-align: center;
+    float: left;
+
+    font-size: 3em;
+}
